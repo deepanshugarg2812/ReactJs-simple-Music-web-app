@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import Game from './components/Game';
+import AddItem from './components/AddItem';
 
 class App extends React.Component{
   render(){
     return(
-        <Game />
+      <>
+      <div className="mainFrame">
+        <AddItem />
+      </div>
+      </>
     );
   }  
 }
